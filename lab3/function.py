@@ -113,12 +113,12 @@ def histogram(lst):
 histogram([4, 9, 7])
 
 
-# 13. Guess the number game (автоматическая версия)
+# 13. Guess the number game 
 def guess_the_number():
     name = "Zhansaya"
     number = random.randint(1, 20)
     guesses = 0
-    test_guesses = [5, 10, number]  # тестовые ходы
+    test_guesses = [5, 10, number]  
     print(f"\nWell, {name}, I am thinking of a number between 1 and 20.")
     for guess in test_guesses:
         guesses += 1

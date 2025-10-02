@@ -31,7 +31,7 @@ def movies_by_category(movies_list, category):
 
 
 def average_imdb(movies_list):
-    if not movies_list:  # avoid division by zero
+    if not movies_list:  
         return 0
     return sum(m["imdb"] for m in movies_list) / len(movies_list)
 
