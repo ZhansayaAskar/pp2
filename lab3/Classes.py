@@ -114,4 +114,4 @@ def is_prime(n):
 
 nums = [1, 2, 3, 4, 5, 6, 7, 11, 15, 17, 20]
 primes = list(filter(lambda x: is_prime(x), nums))
-print("Primes:", primes)
+print("Primes:", primes) 
