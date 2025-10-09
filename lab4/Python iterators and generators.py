@@ -1,4 +1,5 @@
 #1 a
+print ("1 ex")
 n= int (input(" enter number "))
 class MyNumbers:
   def __iter__(self):
@@ -19,6 +20,7 @@ myiter = iter(myclass)
 for x in myiter:
   print(x)
   
+print ("1 b ex")
 # b 
 def Squares(n):
     for i in range(1, n + 1):
@@ -32,7 +34,7 @@ for num in Squares(N):
     print(num)
 
   
-  
+print ("2 a ex")
 #2 a
 s= int (input("enter number for  print the even num "))
 class EvenNum:
@@ -54,6 +56,7 @@ myiter = iter (myclass)
 for x in myiter:
     print(x)      
     
+print ("2 a ex")    
  # b     
     
 def Evennum(n):
@@ -67,6 +70,7 @@ n = int(input("enter number for  print the even num: "))
 
 print(",".join(str(x) for x in Evennum(n)))
 
+print ("3 ex")
 #3 
 def Divide(n):
     for i in range (0,n+1):
@@ -78,7 +82,7 @@ n = int(input("enter number : "))
 for x in Divide(n):
     print(x)
     
-    
+print ("4 ex")  
 #4
 def squares(a,b):
     for i in range (a,b+1):
@@ -91,7 +95,7 @@ b= int(input("enter b: "))
 for num in squares(a,b):
     print(num)
 
-
+print ("5 ex")
 #5
 def down (a):
     for i in range (a,-1,-1):
