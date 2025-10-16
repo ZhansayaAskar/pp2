@@ -1,25 +1,4 @@
-#1 a
-print ("1 ex")
-n= int (input(" enter number "))
-class MyNumbers:
-  def __iter__(self):
-    self.a = 1
-    return self
 
-  def __next__(self):
-    if self.a <= n:
-      x = self.a ** 2
-      self.a += 1
-      return x
-    else:
-      raise StopIteration
-
-myclass = MyNumbers()
-myiter = iter(myclass)
-
-for x in myiter:
-  print(x)
-  
 print ("1 b ex")
 # b 
 def Squares(n):
