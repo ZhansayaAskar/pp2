@@ -49,4 +49,4 @@ def create_tables():
         print(error)
 
 if __name__ == '__main__':
-    create_tables()
+    create_tables() 
