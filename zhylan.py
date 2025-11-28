@@ -1,7 +1,7 @@
 import pygame
 import sys
 from random import randint  
-from bd import user, score
+from bd import user,save_score
 
 pygame.init()
 
@@ -68,7 +68,7 @@ while True:
             if event.key == pygame.K_RIGHT: 
                 snake_direction = (TILE_SIZE, 0)
             if event.key == pygame.K_p:  
-                score(user_id, score, level)
+                save_score(user_id, score, level)
                 paused = not paused
     if paused:
         continue
