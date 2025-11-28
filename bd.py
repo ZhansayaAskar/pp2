@@ -39,7 +39,7 @@ def user(username):
         
         return None, None
 
-def score(user_id, score, level):
+def save_score(user_id, score, level):
     
     try:
         with psycopg2.connect(**params) as conn:
